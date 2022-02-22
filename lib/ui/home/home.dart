@@ -80,7 +80,7 @@ class _HomeState extends State<Initial> {
                   )
                 ],
               ),
-              Divider(),
+
               Column(
                 children: [
                   Row(
@@ -94,6 +94,7 @@ class _HomeState extends State<Initial> {
                           child: Text(this.gastos[0], style: TextStyle(fontSize: 11.0),),
                         )
                       ),
+                      Divider(),
                       Container(
                         height: 150,
                         width: 170,

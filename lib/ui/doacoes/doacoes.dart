@@ -62,7 +62,7 @@ class _DoacoesState extends State<Doacoes> {
         ),
         builder: (context, snapshot){
           return ListView.builder(
-            itemCount: snapshot.data?.length,
+            itemCount: snapshot.data?.length?? 0,
             itemBuilder: (_, index){
               return snapshot.data![index];
             }
